@@ -7,6 +7,7 @@ Key classes/files
 •	Magazines — derives from LibraryItem, adds IssueNumber.
 •	program — contains Main(string[]) that creates sample items and demonstrates borrowing.
 •	Project file: Assignment1.csproj
+
 Requirements
 •	.NET 8 SDK
 •	C# 12 (project is set up for .NET 8/C# 12)
@@ -16,11 +17,23 @@ From the repository root:
 •	dotnet build Assignment1\Assignment1.csproj
 •	Run:
 •	dotnet run --project Assignment1\Assignment1.csproj
+
 What the program does
 •	Creates two Book objects and one Magazines object.
 •	Displays initial item details.
 •	Simulates borrowing book1 by setting IsAvailable = false.
 •	Shows updated availability and prints updated details.
 Sample output (trimmed)
-Library Management System ------|------- Initial Library Items: ------|------- Book Details Item ID:101 Title : Pather Panchali Available: True Author Name:Bibhutibhushan Bandyopadhyay ... Borrowing Process: ------|------- Before borrowing: Book 'Pather Panchali' - Available: True
+
+Library Management System
+------|------- 
+Initial Library Items:
+------|-------
+Book Details 
+Item ID:101 
+Title : Pather Panchali 
+Available: True 
+Author Name:Bibhutibhushan Bandyopadhyay ...
+Borrowing Process: ------|-------
+Before borrowing: Book 'Pather Panchali' - Available: True
 After borrowing: Book 'Pather Panchali' - Available: False
